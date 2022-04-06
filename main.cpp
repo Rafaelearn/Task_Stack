@@ -58,4 +58,6 @@ bool CheckArrangement(string input, char openChar, char closeChar)
 		return false;
 	}
 	return true;
+
+
 }
