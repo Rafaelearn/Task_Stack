@@ -53,7 +53,7 @@ bool CheckArrangement(string input, char openChar, char closeChar)
 	}
 	if (stack)
 	{
-		cout << "Тип ошибки: лишняя открывающаяся скобка ' " << closeChar << " '"<<
+		cout << "Тип ошибки: лишняя открывающаяся скобка ' " << openChar << " '"<<
 			endl << "\tНомер соответсвующей скобки: " << lastOpenChar<<endl;
 		return false;
 	}
